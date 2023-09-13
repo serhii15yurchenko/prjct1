@@ -1,0 +1,41 @@
+.header {
+    padding: 17px 0; 
+    // 21px
+    .container {
+        
+
+        .logo {
+            max-width: 185px; 
+            // 255px
+        }
+
+        .navigation {
+
+            .nav-list {
+                display: flex;
+            }
+
+            .burger {
+                // width: 42px;
+                // height: 42px;
+                // background-color: transparent;
+                // padding: 3px;
+                // border: none;
+                // cursor: pointer;
+                // position: relative;
+                // z-index: 5;
+                display: none;
+
+                
+
+            }
+
+            
+
+            .mobile-menu {
+                display: none;
+            }
+            
+        }
+    }
+}

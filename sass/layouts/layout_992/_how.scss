@@ -1,0 +1,65 @@
+.how {
+    padding: 60px 0px 100px;
+    // 60 100
+    font-family: $fontMontserrat;
+    background-color: #242424;
+
+    .container {
+
+
+        .how-title {
+            color: #F2F2F2;
+            text-transform: uppercase;
+            font-family: $fontMontserrat;
+            margin-bottom: 60px;
+            // 60
+            font-size: 40px;
+            // 45
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        .how-bullets {
+
+            .how-list {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-gap: 50px;
+                align-items: baseline;
+
+                .how-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    // width: 50%;
+
+                    img {
+                        display: block;
+                        margin-bottom: 27px;
+                        // 27
+                        width: 100%;
+                        max-width: 110px;
+                    }
+
+                    .how-item-title {
+                        color: #2B99BB;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        margin-bottom: 15px;
+                        // 15
+                    }
+
+                    .how-text {
+                        color: #F2F2F2;
+                        text-align: center;
+                        font-family: $fontLato;
+                        font-weight: 300;
+                        font-size: 16px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}

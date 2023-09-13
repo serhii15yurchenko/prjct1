@@ -1,0 +1,111 @@
+.call {
+    padding: 150px 0px 100px;
+    // 150 100
+
+    .container {
+
+        .call-title {
+            color: #242424;
+            text-transform: uppercase;
+            font-family: $fontMontserrat;
+            margin-bottom: 50px;
+            // 50
+            font-size: 40px;
+            // 45
+            font-weight: 600;
+            text-align: center;
+            line-height: 48px;
+            // 55
+            .color-sub {
+                color: #2B99BB;
+            }
+        }
+
+        .call-link {
+            font-size: 32px;
+            // 32
+            color: #F2F2F2;
+            background-color: #2B99BB;
+            text-transform: uppercase;
+            font-family: $fontMontserrat;
+            padding: 15px;
+            font-weight: 700;
+            // border: unset;
+            text-decoration: unset;
+            max-width: 458px;
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+        }
+    }
+}
+
+.footer {
+    background-color: #242424;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    font-family: $fontMontserrat;
+    font-weight: 700;
+    padding: 70px 0;
+    // 70
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        .footer-left {
+            margin-bottom: 35px;
+            text-align: left;
+
+            a {
+                text-decoration: unset;
+                color: #F2F2F2;
+                display: block;
+
+                &:not(:last-child) {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .footer-center {
+            margin-bottom: 35px;
+            text-align: left;
+
+            span {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            a {
+                text-decoration: unset;
+                color: #F2F2F2;
+                display: block;
+
+                &:not(:last-child) {
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+
+        .footer-right {
+            text-align: right;
+
+            span {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            
+            
+            ul {
+                justify-content: flex-end;
+            }
+
+        }
+
+    }
+}

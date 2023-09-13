@@ -1,0 +1,84 @@
+.intro {
+    font-family: $fontLato;
+    // padding-top: 35px;
+    // padding-bottom: 35px;
+    // 52px
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .intro-left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 711px;
+
+            .intro-bullets {
+                margin-bottom: 23px;
+                // 23px
+
+                .bullets-list {
+                    display: flex;
+
+                    .bullet-item {
+                        display: flex;
+                        align-items: center;
+
+                        &:not(:last-child) {
+                            margin-right: 20px;
+                            // 40px
+                        }
+
+                        img {
+                            margin-right: 5px;
+                            // 10px
+                        }
+
+                        span {
+                            text-transform: uppercase;
+                            font-size: 13px;
+                            color: #242424;
+                            // 20px
+                        }
+                    }
+                }
+            }
+
+            .intro-title {
+                font-size: 50px;
+                // 50px
+                line-height: 60px;
+                // 60px
+                margin-bottom: 15px;
+                // max-width: 711px;
+            }
+
+            .intro-text {
+                font-size: 22px;
+                // 24px
+                line-height: 31px;
+                // 31px
+                color: #242424;
+                margin-bottom: 46px;
+                // 46px
+                text-align: left;
+                max-width: 511px;
+                font-weight: 300;
+            }
+
+            
+        }
+
+        .intro-right {
+            margin-bottom: -52px;
+            // 0
+            img {
+                // max-width: 500px;
+                max-width: 550px;
+            }
+        }
+    }
+}

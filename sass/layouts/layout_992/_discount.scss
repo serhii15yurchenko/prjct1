@@ -1,0 +1,79 @@
+.discount {
+    padding: 50px 0px 75px;
+    // 100 150
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .discount-left {
+            width: 40%;
+            margin-bottom: 0px;
+
+            .discount-title {
+                font-family: $fontMontserrat;
+                font-weight: 500;
+                font-size: 35px;
+                // 45px
+                line-height: 45px;
+                // 55px
+                text-align: left;
+                margin-bottom: 25px;
+                color: #242424;
+            }
+
+            .discount-text {
+                font-family: $fontLato;
+                font-size: 16px;
+                line-height: 27px;
+                font-weight: 300;
+                color: #242424;
+                text-align: left;
+
+                .color-sub {
+                    color: #2B99BB;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .percent {
+            max-width: 169px;
+            display: block;
+            margin: 20px 0px;
+            width: 20%;
+        }
+
+        .discount-right {
+            width: 40%;
+
+            h5 {
+                color: #2B99BB;
+                font-weight: 700;
+                font-family: $fontLato;
+                font-size: 17px;
+                margin-bottom: 25px;
+                // 50px
+                text-align: left;
+            }
+
+            .discount-list {
+                list-style: disc;
+                padding-left: 20px;
+
+                .discount-item {
+                    font-family: $fontLato;
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 300;
+                    color: #242424;
+                }
+            }
+
+            
+        }
+    }
+
+}

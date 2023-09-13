@@ -1,0 +1,91 @@
+.modal {
+
+    .modal-dialog {
+
+        .modal-content {
+            border-radius: unset;
+
+            .modal-header {
+                position: relative;
+                padding: 40px 40px 20px;
+                // 40
+
+                .modal-title-wrapper {
+
+                    .modal-title {
+                        font-weight: 700;
+                        font-family: "Montserrat", sans-serif;
+                        text-align: center;
+                        text-transform: uppercase;
+                        font-size: 35px;
+                        line-height: 40px;
+                        margin-bottom: 10px;
+                    }
+
+                    .modal-subtitle {
+                        font-family: "Lato", sans-serif;
+                        font-size: 17px;
+                        line-height: 25px;
+                        // margin-bottom: 13px;
+                        font-weight: 300;
+                        color: #242424;
+                        text-align: center;
+                    }
+                }
+
+                .btn-close {
+                    position: absolute;
+                     top: 20px;
+                     right: 20px;
+                }
+            }
+
+            .modal-body {
+                padding: 20px;
+
+                .form {
+                    display: flex;
+                    flex-direction: column;
+
+                    input {
+                        border: 1px solid black;
+                        padding: 20px 20px;
+                        font-family: "Lato", sans-serif;
+
+                        &:not(:last-child) {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    input::placeholder {
+                        font-family: $fontLato;
+                        color: #242424;
+                        font-size: 14px;
+                        font-weight: 300;
+                    }
+
+                    button {
+                        // margin-top: 20px;
+                        font-size: 25px;
+                        color: #F2F2F2;
+                        background-color: #2B99BB;
+                        text-transform: uppercase;
+                        font-family: $fontMontserrat;
+                        padding: 15px;
+                        font-weight: 700;
+                        border: unset;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.swal2-title {
+    font-family: $fontMontserrat;
+}
+
+.swal2-html-container {
+    font-family: $fontLato;
+}

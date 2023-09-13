@@ -1,0 +1,35 @@
+.salary {
+
+    .container {
+
+        .salary-title {
+            color: #242424;
+            text-transform: uppercase;
+            font-family: $fontMontserrat;
+            margin-bottom: 50px;
+            // 100
+            font-size: 30px;
+            // 45
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+            // 55
+            
+        }
+
+        
+
+    }
+
+    .salary-slider {
+
+        .slider-item {
+            width: 500px!important;
+            // 500
+            height: 200px;
+            // 200
+        }
+
+        
+    }
+}

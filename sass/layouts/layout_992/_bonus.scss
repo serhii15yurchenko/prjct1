@@ -1,0 +1,76 @@
+.bonus {
+    font-family: $fontLato;
+    padding-bottom: 100px;
+    // 100
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+        .bonus-img {
+            margin-bottom: 0px;
+            max-width: 450px;
+            // 0
+            img {
+                // max-width: 546px;
+                // width: 546px;
+                // margin-right: 44px;
+            }
+        }
+
+        .bonus-wrap {
+            max-width: 600px;
+
+            h4 {
+                font-family: $fontMontserrat;
+                font-weight: 700;
+                color: #242424;
+                margin-bottom: 30px;
+                // 30
+                font-size: 30px;
+                text-align: left;
+                text-transform: uppercase;
+            }
+
+            .bonus-list {
+                padding-left: 30px;
+
+
+                .bonus-item {
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        width: 16px;
+                        height: 16px;
+                        // 16
+                        background-color: #2B99BB;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: -25px;
+                        top: 10px;
+                    }
+
+                    &:not(:last-child) {
+                        margin-bottom: 30px;
+                        // 30
+                    }
+
+                    p {
+                        color: #242424;
+                        font-weight: 300;
+                        font-size: 21px;
+                        // 24px
+                        line-height: 31px;
+                        // 31px
+                        .color-sub {
+                            color: #2B99BB;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

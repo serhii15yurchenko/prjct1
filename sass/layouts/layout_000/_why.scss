@@ -1,0 +1,96 @@
+.why {
+    font-family: $fontMontserrat;
+    padding-bottom: 50px;
+    // 100
+
+    .container {
+
+        .why-title {
+            color: #242424;
+            text-transform: uppercase;
+            font-family: $fontMontserrat;
+            margin-bottom: 50px;
+            // 100
+            font-size: 30px;
+            // 45
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+            // 55
+            .color-sub {
+                color: #2B99BB;
+            }
+        }
+
+        .why-list {
+
+
+            .why-item {
+                // padding: 50px 40px;
+                padding: 25px 20px;
+                border: 5px solid;
+                box-shadow: 7px 8px 23px rgba(0, 0, 0, 0.1);
+                background: #F2F2F2;
+                // border-image: linear-gradient(to right, #2B99BB, #2B99BB00) 1;
+                display: flex;
+                flex-direction: column;
+
+                &:not(:last-child) {
+                    margin-bottom: 5px;
+                }
+
+                &:nth-of-type(1) {
+                    border-image: linear-gradient(to right, #2B99BB, #2B99BB00) 1;
+                }
+
+                &:nth-of-type(2) {
+                    border-image: linear-gradient(to left, #2B99BB, #2B99BB00) 1;
+                }
+
+                &:nth-of-type(3) {
+                    border-image: linear-gradient(to right, #2B99BB, #2B99BB00) 1;
+                }
+
+                &:nth-of-type(4) {
+                    border-image: linear-gradient(to left, #2B99BB, #2B99BB00) 1;
+                }
+
+                &:nth-of-type(5) {
+                    border-image: linear-gradient(to right, #2B99BB, #2B99BB00) 1;
+                }
+
+                &:nth-of-type(6) {
+                    border-image: linear-gradient(to left, #2B99BB, #2B99BB00) 1;
+                }
+
+                .why-wrap {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+
+                    .why-subtitle {
+                        text-transform: uppercase;
+                        color: #2B99BB;
+                        font-weight: 600;
+                        margin-bottom: 15px;
+                        font-size: 20px;
+                        // 28px
+                    }
+
+                    .number {
+                        font-weight: 500;
+                        color: #2B99BB;
+                        font-size: 90px;
+                    }
+                }
+
+                .why-text {
+                    font-size: 17px;
+                    line-height: 26px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

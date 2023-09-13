@@ -1,0 +1,104 @@
+.person {
+    padding: 75px 0px 50px;
+    // 100 140
+
+    .container {
+
+
+        .person-title {
+            color: #242424;
+            text-transform: uppercase;
+            font-family: $fontMontserrat;
+            margin-bottom: 50px;
+            // 96
+            font-size: 30px;
+            // 45
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+            // 55
+        }
+
+        .person-wrapper {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .person-text {
+
+                h4 {
+                    font-size: 22px;
+                    // 36
+                    line-height: 34px;
+                    // 50
+                    font-family: $fontMontserrat;
+                    font-weight: 700;
+                    margin-bottom: 40px;
+                    // 80
+                    text-transform: uppercase;
+                    .color-sub {
+                        color: #2B99BB;
+                    }
+                    .weight-sub {
+                        font-weight: 600;
+                    }
+                }
+
+                .person-list {
+                    font-family: $fontLato;
+                    font-size: 20px;
+                    // 28
+                    line-height: 28px;
+                    // 36\
+                    font-weight: 300;
+
+                    .person-item {
+                        position: relative;
+                        padding-left: 36px;
+
+                        &:nth-of-type(1)::before {
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+
+                        &:nth-of-type(2)::before {
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+
+                        &:nth-of-type(4)::before {
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+
+                        &:nth-of-type(3)::before {
+                            top: 50%;
+                            transform: translateY(-50%);
+                        }
+
+                        &:not(:last-child) {
+                            margin-bottom: 15px;
+                            // 30
+                        }
+
+                        &::before {
+                            content: '';
+                            width: 16px;
+                            height: 16px;
+                            background-color: #2B99BB;
+                            border-radius: 50%;
+                            position: absolute;
+                            left: 0px;
+                        }
+                    }
+                }
+            }
+
+            .person-photo {
+                max-width: 300px;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
